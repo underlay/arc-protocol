@@ -6,7 +6,7 @@ There is no strict "spec" for an assertion other than that it is an RDF dataset.
 
 Content within an assertion is held in the RDF dataset's named graphs. Named graphs must have blank graph names.
 
-A single assertuib should carry a coherent unit of data, such as a row in a database or a snapshot of state. Not all domains have clear divisions; applications are encouraged to use assertions in whatever way feels most appropriate.
+A single assertion should carry a coherent unit of data, such as a row in a database or a snapshot of state. Not all domains have clear divisions; applications are encouraged to use assertions in whatever way feels most appropriate.
 
 Assertions label components of data according to their provenance. They group the parts of the data that came from the same source, are attributed to the same entity, etc. In general, schemas and provenance do not always align, so named graphs are used as an extra degree of freedom to capture the difference.
 

@@ -38,7 +38,7 @@ In practice, the word 'collection' may often be used to refer to either the coll
 
 A collection is uniquely identified by the content hash of its collection file representation.
 
-File are listed with paths that allow the content of the collection directory to be heirarchyally structured.
+File are listed with paths that allow the content of the collection directory to be hierarchically structured.
 
 A collection has no record of past or future versions other than it’s singular `version` attribute. Other programs or tools can be used to keep track of version histories for collections that are understood to be conceptually versions of the same thing. The `id` attribute allows other programs and tools to consistently track related versions, while the `name` field provides space for a human-readable title for the collection.
 
